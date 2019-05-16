@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: #ffbe76;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.card-item{
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
